@@ -1,0 +1,214 @@
+body {
+    margin: auto;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navlist {
+    display: flex;
+    justify-content: center;    
+}
+
+.navlinks {
+    margin: 40px;
+    line-height: 25px;
+    color: #828282;
+}
+
+.home {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 970px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.devname {     
+    max-width: 970px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: black;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
+.about-header{
+    font-weight: 700;
+    font-size: 34px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.about-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.skills-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.skills-header {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.skills-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 20px;
+    color: #070707;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #828282;
+    width: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.logo {
+    padding-bottom: 25px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #F6F6F6;
+}
+
+.portfolio-header {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.portf-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 70px;
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.footer-info {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.footer-header {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    color: #070707;
+    padding-bottom: 20px;
+}
+
+.footer-text {
+    width: 280px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.footer-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    width: 180px;
+    height: 44px;
+    background: #070707;
+    border-radius: 22px;
+    margin-bottom: 30px;
+}
+
+.footer-button a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-logos {
+    width: 310px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.parting {
+    width: 200px;
+    height: 60px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+    padding-top: 60px;
+}
